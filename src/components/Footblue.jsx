@@ -17,7 +17,7 @@ const Footblue = () => {
           
           {/* LEFT */}
           <div>
-            <h1 className="text-5xl text-blue-600 font-bold mb-5 leading-tight">
+            <h1 className="text-3xl md:text-5xl text-blue-600 font-bold mb-5 leading-tight break-all">
               MSEC@Celista-2K26
             </h1>
 
@@ -69,7 +69,7 @@ const Footblue = () => {
               </h2>
               <ul className="space-y-2 text-gray-300 text-sm">
                 <li>@ Instagram</li>
-                <li>@ YouTube</li>
+                <li>@ Gmail</li>
               </ul>
             </div>
           </div>

@@ -77,25 +77,7 @@ const ScrollReveal = ({
         }
       );
 
-      // Blur animation
-      if (enableBlur) {
-        gsap.fromTo(
-          wordElements,
-          { filter: `blur(${blurStrength}px)` },
-          {
-            filter: 'blur(0px)',
-            stagger: 0.05,
-            ease: 'none',
-            scrollTrigger: {
-              trigger: el,
-              scroller,
-              start: 'top bottom-=20%',
-              end: wordAnimationEnd,
-              toggleActions: "play none none reverse"
-            }
-          }
-        );
-      }
+      
     }, containerRef);
 
     return () => ctx.revert();   // ✅ Only revert THIS instance
